@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="author" content="Rob Sim" />
+	<meta name="description" content="How I setup this blog and what I use to run it" />
+	<title>About this blog</title>
+	<link href="/css/normalize.css" rel="stylesheet" />
+	<link href="/css/screen.css" media="screen" rel="stylesheet" />
+	<link href="/css/pygments.css" media="screen" rel="stylesheet" />
+</head>
+<body>
+	
+	<div id="wrapper">
+		
+		<header id="masterhead">
+			<img src="/RobSim.svg" width="60px" height="60px">
+			<h1 id="header"><a href="/">Rob Sim</a></h1>
+				<!-- <nav>
+					<a href="http://robs.im">Home</a> -
+					<a href="http://blog.robs.im">Blog</a> -
+					<a href="/archive.html">Archive</a> -
+					<a href="http://dribbble.com/RobSIm">Dribbble</a>
+				</nav> -->
+			<div class="clear"></div>
+		</header>
+
+		<section>
+		
+			<div class="content">
+	<article class="post single">
+  		<header>
+				
+				
+				  <h2><a href="/2012/05/13/about-this-blog">About this blog</a></h2>
+				
+  			<span class="date">May 13, 2012</span>
+  		</header>
+		
+    	<p>So, I've just finished up setting up this brand new blog. Before I've always run a WordPress blog, but since WordPress is kind of over-kill with all it features that I don't need, I've decided to try something new, so this time I am running a static blog with <a href="http://jekyllrb.com/">Jekyll</a>.</p>
+
+<blockquote><p>Jekyll is a simple, blog aware, static site generator. It takes a template directory (representing the raw form of a website), runs it through Textile or Markdown and Liquid converters, and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.</p></blockquote>
+
+<p>So after I started using jekyll, I don't need any database server, because everything is stored in static files. It also means I can use whatever editor I want to use (TextMate or vim) to write my blog posts in markdown.</p>
+
+<p>So if I want to publish a new post, I simply do:</p>
+
+<div class="highlight"><pre><code class="sh">rake post <span class="nv">title</span><span class="o">=</span><span class="s2">&quot;Super awesome post&quot;</span>
+</code></pre></div>
+
+
+<p>That will generate a new markdown file, which I then just edit with my desired editor and then do:</p>
+
+<div class="highlight"><pre><code class="sh">git add .
+git commit -m <span class="s2">&quot;Added new content&quot;</span>
+git push origin master
+</code></pre></div>
+
+
+<p>And that will push my new post over to my server and it will be live on the internet.</p>
+
+<p>I love this solution, it's so simple and it super lightweight, since all the web server will need do is just serving some static files, and not generating dynamic content in some scripting language and fetching content from a database server, like it would do if I used something like WordPress.</p>
+
+<p>If you want make your own blog like this, make sure to checkout <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://jekyllbootstrap.com/">Jekyll-Bootstap</a>.</p>
+
+
+  	</article>
+	
+	<!--<p id="related-posts">
+		<h3>Related Posts</h3>
+	  	
+		<ul>
+			<li><a href="/2013/03/14/osx-1_8_3/">
+	          Apple Releases OS X 10.8.3
+			</a></li>
+		</ul>
+	  
+		<ul>
+			<li><a href="/2013/03/14/bye-google-reader/">
+	          Bye-bye Google Reader
+			</a></li>
+		</ul>
+	  
+		<ul>
+			<li><a href="/2013/03/12/dropbox-overhaul/">
+	          Dropbox Improves it's desktop clients
+			</a></li>
+		</ul>
+	  
+		<ul>
+			<li><a href="/2013/03/12/apple-commercials/">
+	          Apple Airs New iPhone Commercials, “Brilliant” and “Discover”
+			</a></li>
+		</ul>
+	  
+		<ul>
+			<li><a href="/2013/03/10/iphone-flaw/">
+	          The iPhone's biggest flaw
+			</a></li>
+		</ul>
+	  
+	</p>-->
+	
+</div>
+
+		
+		</section>
+</div>
+		<footer id="foot">
+
+			<div class="grid">
+				Copyright &copy; 2013
+			</div>
+
+			<div class="gridright">
+			</div>
+			
+			<div class="clear"></div>
+		
+		</footer>	
+	
+	
+	</body>
+</html>

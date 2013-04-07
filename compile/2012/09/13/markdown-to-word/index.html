@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="author" content="Rob Sim" />
+	<meta name="description" content="How to convert a markdown file into a fully useable Word Document" />
+	<title>Convert Markdown to Word</title>
+	<link href="/css/normalize.css" rel="stylesheet" />
+	<link href="/css/screen.css" media="screen" rel="stylesheet" />
+	<link href="/css/pygments.css" media="screen" rel="stylesheet" />
+</head>
+<body>
+	
+	<div id="wrapper">
+		
+		<header id="masterhead">
+			<img src="/RobSim.svg" width="60px" height="60px">
+			<h1 id="header"><a href="/">Rob Sim</a></h1>
+				<!-- <nav>
+					<a href="http://robs.im">Home</a> -
+					<a href="http://blog.robs.im">Blog</a> -
+					<a href="/archive.html">Archive</a> -
+					<a href="http://dribbble.com/RobSIm">Dribbble</a>
+				</nav> -->
+			<div class="clear"></div>
+		</header>
+
+		<section>
+		
+			<div class="content">
+	<article class="post single">
+  		<header>
+				
+				
+				  <h2><a href="/2012/09/13/markdown-to-word">Convert Markdown to Word</a></h2>
+				
+  			<span class="date">September 13, 2012</span>
+  		</header>
+		
+    	<h3>Using Pandoc</h3>
+
+<p>Converting a Markdown file to a Word document with pandoc is really easy. All you need to do is to get <a href="http://johnmacfarlane.net/pandoc/">pandoc</a> version 1.9 or higher, then:</p>
+
+<div class="highlight"><pre><code class="sh">pandoc myfile.txt -o myfile.docx
+</code></pre></div>
+
+
+<p>That will take the file myfile.txt and convert it to the Word document myfile.docx.</p>
+
+<h3>Using Google Docs</h3>
+
+<p>If you don't want to install pandoc for some reason, you can also use Google Docs. Convert your Markdown file to HTML, then upload it to Google Docs, select the option for Google Docs to convert it to their format, then download it as a DOC file.</p>
+
+
+  	</article>
+	
+	<!--<p id="related-posts">
+		<h3>Related Posts</h3>
+	  	
+		<ul>
+			<li><a href="/2013/03/14/osx-1_8_3/">
+	          Apple Releases OS X 10.8.3
+			</a></li>
+		</ul>
+	  
+		<ul>
+			<li><a href="/2013/03/14/bye-google-reader/">
+	          Bye-bye Google Reader
+			</a></li>
+		</ul>
+	  
+		<ul>
+			<li><a href="/2013/03/12/dropbox-overhaul/">
+	          Dropbox Improves it's desktop clients
+			</a></li>
+		</ul>
+	  
+		<ul>
+			<li><a href="/2013/03/12/apple-commercials/">
+	          Apple Airs New iPhone Commercials, “Brilliant” and “Discover”
+			</a></li>
+		</ul>
+	  
+		<ul>
+			<li><a href="/2013/03/10/iphone-flaw/">
+	          The iPhone's biggest flaw
+			</a></li>
+		</ul>
+	  
+	</p>-->
+	
+</div>
+
+		
+		</section>
+</div>
+		<footer id="foot">
+
+			<div class="grid">
+				Copyright &copy; 2013
+			</div>
+
+			<div class="gridright">
+			</div>
+			
+			<div class="clear"></div>
+		
+		</footer>	
+	
+	
+	</body>
+</html>

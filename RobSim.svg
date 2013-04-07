@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="323px" height="307px" viewBox="0 0 323 307" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>Slice 1</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs></defs>
+    <g id="Page 1" fill="#D8D8D8" fill-rule="evenodd">
+        <path d="M161.5,5 L317.948797,118.666704 L258.190674,302.583296 L64.809326,302.583296 L5.05120307,118.666704 L161.5,5 Z M161.5,5" id="Polygon 1" stroke="rgb(86,192,105)" stroke-width="4"></path>
+        <path d="M161.5,36 L288.466045,128.246231 L239.969331,277.503769 L83.0306688,277.503769 L34.5339551,128.246231 L161.5,36 Z M161.5,36" id="Polygon 1 copy" stroke="rgb(86,192,105)" stroke-width="4" transform="translate(161.500000, 169.500000) rotate(-315.000000) translate(-161.500000, -169.500000)"></path>
+        <path d="M171.765337,72.2653366 L274.003912,146.54601 L234.952251,266.734663 L108.578422,266.734663 L69.5267611,146.54601 L171.765337,72.2653366 Z M171.765337,72.2653366" id="Polygon 1 copy 2" stroke="rgb(86,192,105)" stroke-width="4" transform="translate(171.765337, 169.500000) rotate(-270.000000) translate(-171.765337, -169.500000)"></path>
+        <path d="M167,96.6575939 L245.842406,156.887833 L215.727287,254.342406 L118.272713,254.342406 L88.1575939,156.887833 L167,96.6575939 Z M167,96.6575939" id="Polygon 1 copy 3" stroke="rgb(86,192,105)" stroke-width="4" transform="translate(167.000000, 175.500000) rotate(-225.000000) translate(-167.000000, -175.500000)"></path>
+        <path d="M161.75,114.5 L223.5,161.672802 L199.913599,238 L123.586401,238 L100,161.672802 L161.75,114.5 Z M161.75,114.5" id="Polygon 1 copy 4" stroke="rgb(86,192,105)" stroke-width="4" transform="translate(161.750000, 176.250000) rotate(-180.000000) translate(-161.750000, -176.250000)"></path>
+    </g>
+</svg>
