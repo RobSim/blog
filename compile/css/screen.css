@@ -9,7 +9,7 @@
     font-style: normal;
 }
 
-@font-face {
+/*@font-face {
     font-family: 'Proxima Nova Extrabold';
     src: url('fonts/proximanova-extrabold-webfont.eot');
     src: url('fonts/proximanova-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
@@ -18,7 +18,7 @@
          url('fonts/proximanova-extrabold-webfont.svg#proxima_novaextrabold') format('svg');
     font-weight: bold;
     font-style: normal;
-}
+}*/
 
 /******************************
 /* Body styles 
@@ -48,7 +48,7 @@ a:hover {
 	float: none;
 }
 
-h1 { font-size: 22px; }
+h1 { font-size: 22px; font-weight: normal; color: #eee}
 h2 { font-size: 20px; }
 h3 { font-size: 18px; }
 h4 { font-size: 16px; }
@@ -66,8 +66,9 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Proxima Nova', sans-serif;}
 	width: 700px;
 	}
 	#header {
-		font-size: 2.5rem;
+		font-size: 1.4rem;
 		float: right;
+		padding-top: 20px;
 		margin-bottom: -25px;
 	}
 	#masterhead nav{
@@ -100,6 +101,9 @@ nav {
 	text-align: center;
 	/*float: right;*/
 }
+#masterhead nav a{
+	color: #5EC984;
+}
 #masterhead nav a:hover{
 	color: #5EC984;
 }
@@ -110,7 +114,8 @@ nav {
 }
 #header a {
 	text-decoration: none;
-	font-family: 'Proxima Nova Extrabold', sans-serif;
+	font-family: 'Proxima Nova', sans-serif;
+	color: rgba(94, 201, 132, 0.5);
 }
 #header a:hover {
 	color: #5EC984;
@@ -219,6 +224,29 @@ nav {
 	color: gray;
 }
 
+.rotate{
+	float: left;
+	-webkit-transition-duration: 0.8s;
+	-moz-transition-duration: 0.8s;
+	-o-transition-duration: 0.8s;
+	transition-duration: 0.8s;
+	
+	-webkit-transition-property: -webkit-transform;
+	-moz-transition-property: -moz-transform;
+	-o-transition-property: -o-transform;
+	transition-property: transform;
+	
+	overflow:hidden;
+
+	}	
+
+.rotate:hover	
+{ 
+	-webkit-transform:rotate(72deg);
+	-moz-transform:rotate(72deg); 
+	-o-transform:rotate(72deg);
+}
+
 /******************************
 /* Footer 
 /******************************/
@@ -229,8 +257,8 @@ footer {
 	padding: 12px 0 12px 0;
 	border-top: 3px solid #eee;
 	line-height: 1.5em;
-	display: block;
-	background: #5EC984;
+	/*display: block;
+	background: #5EC984;*/
 	width: 100%;
 }
 footer #foot {
