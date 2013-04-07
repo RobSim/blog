@@ -9,12 +9,19 @@ We live inside of a computer simulation. We are created by a merging of our pare
 The Matrix. It really is an interesting concept. I'm quite curious as to why people *don't* believe we live inside a computer program. Is living inside computer program less plausible than god's existence? The answer is probably not, yet [90.34%](http://im.robs.im/Z140hP) of the world still believes in some form of god. Let's take a second to view a conversation I overheard between god and a computer simulation.
 
 God: I explain everything that physics can't.
+
 Simulation: So can I.
+
 God: I explain how the first humans were created.
+
 Simulation: So can I.
+
 God: I explain where people go when they die.
+
 Simulation: So can I.
+
 God: I can make miracles happen.
+
 Simulation: So can I.
 
 I can go on like this forever. If you don't believe me, send me and email at (youmustbefriendswithgod@thepearlygates.com). 
