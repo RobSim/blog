@@ -4,8 +4,7 @@ title: Prismatic
 date: 2013-01-26 08:01:04
 ---
 
-[Prismatic](http://getprismatic.com), while not as well know as
-[Flipboard](http://flipboard.com) or [Pulse](https://www.pulse.me), is
+[Prismatic](http://getprismatic.com), while not as well know as [Flipboard](http://flipboard.com) or [Pulse](https://www.pulse.me), is
 arguably the best news aggregator there is. Now, to be fair, Flipboard
 is totally different, as it’s more of a social aggregator, not a news
 aggregator, but they’re similar. Other than the fact that Flipboard is

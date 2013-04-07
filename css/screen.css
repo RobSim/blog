@@ -180,7 +180,6 @@ nav {
 .post a {
 	color: #5EC984;
 	text-decoration: none;
-	margin-left: 5px;
 }
 .post a:hover {
 	text-decoration: underline;
