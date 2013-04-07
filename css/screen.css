@@ -69,11 +69,9 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Proxima Nova', sans-serif;}
 		font-size: 1.4rem;
 		float: right;
 		padding-top: 20px;
-		margin-bottom: -25px;
+		/*margin-bottom: -25px;*/
 	}
-	#masterhead nav{
-		margin-top: -25px;
-	}
+
 }
 
 @media screen and (max-width: 700px) {
@@ -81,7 +79,10 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Proxima Nova', sans-serif;}
 		width: 95%;
 	}
 	#header {
-		font-size: 4rem;
+		font-size: 1.2rem;
+		float: right;
+		padding-top: 20px;
+		/*margin-bottom: -25px;*/
 	}
 }
 
