@@ -9,7 +9,7 @@
     font-style: normal;
 }
 
-/*@font-face {
+@font-face {
     font-family: 'Proxima Nova Extrabold';
     src: url('fonts/proximanova-extrabold-webfont.eot');
     src: url('fonts/proximanova-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
@@ -18,7 +18,7 @@
          url('fonts/proximanova-extrabold-webfont.svg#proxima_novaextrabold') format('svg');
     font-weight: bold;
     font-style: normal;
-}*/
+}
 
 /******************************
 /* Body styles 
