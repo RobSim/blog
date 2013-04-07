@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Rise: iOS Alarm Clock
+title: Rise - iOS Alarm Clock
 date: 2013-02-24 12:03:45
 ---
 

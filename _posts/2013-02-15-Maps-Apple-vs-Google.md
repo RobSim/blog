@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Maps: Apple vs Google
+title: Maps - Apple vs Google
 date: 2013-02-15 14:07:00
 ---
 
