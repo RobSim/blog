@@ -1,0 +1,29 @@
+safe:        true
+auto:        true
+server:      true
+baseurl:     /
+
+future:      true
+lsi:         false
+pygments:    true
+markdown:    rdiscount
+
+source:      .
+destination: ./_site
+plugins:     ./_plugins
+
+permalink: /:year/:month/:day/:title
+
+## Variables
+title : Rob Sim
+description : The Blog of Rob Sim
+url : http://blog.robs.im
+tagline : yet another weblog
+author :
+  name : Rob Sim
+  email : me@robs.im
+  github : RobSim
+  twitter : none
+  feedburner : none
+  
+production_url : http://blog.robs.im
