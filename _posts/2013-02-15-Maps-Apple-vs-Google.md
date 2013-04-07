@@ -4,6 +4,7 @@ title: Maps: Apple vs Google
 date: 2013-02-15 20:02:27
 ---
 
+
 While
 [everyone](http://www.cnn.com/2012/09/20/tech/mobile/apple-maps-complaints/index.html)
 was complaining about [Apple Maps](http://www.apple.com/ios/maps/) I
