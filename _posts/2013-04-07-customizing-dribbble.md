@@ -4,7 +4,7 @@ title: Customizing Dribbble
 date: 2013-04-07 18:54:19
 ---
 
-I'm addicted to [Dribbble](http://dribbble.com/Robs.im). I'm on there all the time. The reasons don't really matter, as that's not what this post is about. This post is about customizing [Dribbble](http://dribbble.com) to suit your browsing style. Before we get started, you need a couple of things. First, you need a computer, and second you need [Chrome](https://www.google.com/intl/en/chrome/browser/). I have no idea how to do any of this stuff on iOS, but if you do, please [let me know](mailto:me@robs.im).
+I'm addicted to [Dribbble](http://dribbble.com/RobSim). I'm on there all the time. The reasons don't really matter, as that's not what this post is about. This post is about customizing [Dribbble](http://dribbble.com) to suit your browsing style. Before we get started, you need a couple of things. First, you need a computer, and second you need [Chrome](https://www.google.com/intl/en/chrome/browser/). I have no idea how to do any of this stuff on iOS, but if you do, please [let me know](mailto:me@robs.im).
 
 If you're on [Dribbble](http://dribbble.com), you probably end up adding things to [buckets](http://blog.dribbble.com/post/5674008788/buckets). As time goes on, you get more and more buckets. Of course the bucket pop up only shows about 3 buckets before you have to scroll to find more. I can't stand this, so using [stylebot](https://github.com/ankit/stylebot) I made a solution.
 >div.lightbox {
