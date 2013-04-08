@@ -14,6 +14,7 @@ If you're on [Dribbble](http://dribbble.com), you probably end up adding things 
 >ol.buckets.group {
 >    height: 630px; // (# of buckets)*(100) - 70
 >}
+
 What this does is it expands the space on the bucket pop up, saving you from scrolling. Kind of a minor thing, but I wish the Dribbble team implemented it instead of the user having to do it themselves.
 
 Some other chrome extensions I use are [Alex Pankratov](http://swapped.cc/)'s [Is A Follower](http://swapped.cc/#!/is-a-follower), which tells you if a user is following you when you view their profile, [Dribbble HD](https://github.com/Darsain/chrome-dribbblehd), which shows you HD shots everywhere instead of thumbnails and [Endlesss](https://github.com/dedene/endlesss), which gives Dribbble infinite scrolling. Endlesss and Dribbble HD don't quite play well together, so I'm only using Dribbble HD right now, but they both contribute greatly to the experience. If you have your own tips and tricks, [let me know](mailto:me@robs.im).
