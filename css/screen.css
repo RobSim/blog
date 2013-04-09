@@ -28,8 +28,18 @@ body {
 	color: #333;
 	font-family: 'Proxima Nova', sans-serif;
 	font-size: 18px;
-
 }
+
+img {
+// Responsive IMGs
+  max-width: 100%;
+  width: auto\9; /*iefix*/
+  height: auto;
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
 a {
 	color: #444;
 	  -webkit-transition: color 0.15s ease-in-out, opacity 0.1s ease-in-out, background-color 0.15s ease-in-out, padding 0.15s ease-in-out, -webkit-transform 0.15s ease-in-out;
