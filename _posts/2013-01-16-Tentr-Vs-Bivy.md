@@ -8,11 +8,11 @@ date: 2013-01-16 14:40:27
 [tent](http://tent.io) clients currently available. To get everyone up
 to speed, here is a quick little summary of what the [Tent
 Protocol](http://tent.io) is and [Why we need a new Social
-Network](http://robs.im/posts/352-why-we-need-a-new-social-network).
+Network](http://blog.robs.im/2013/01/04/new-social-network/).
 With any free social network, you aren’t **using** the product, you
 **are** the product. If that doesn’t make sense, read [Why we need a new
 Social
-Network](http://robs.im/posts/352-why-we-need-a-new-social-network).
+Network](http://blog.robs.im/2013/01/04/new-social-network/).
 Tent is a protocol for distributed, decentralized social networking. You
 can [host your own server](http://tenti.co) or sign up for a free
 account with [tent.is](http://tent.is) or any other provider you like.
