@@ -9,7 +9,7 @@
     font-style: normal;
 }
 
-@font-face {
+/*@font-face {
     font-family: 'Proxima Nova Extrabold';
     src: url('fonts/proximanova-extrabold-webfont.eot');
     src: url('fonts/proximanova-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
@@ -18,7 +18,7 @@
          url('fonts/proximanova-extrabold-webfont.svg#proxima_novaextrabold') format('svg');
     font-weight: bold;
     font-style: normal;
-}
+}*/
 
 /******************************
 /* Body styles 
@@ -28,18 +28,8 @@ body {
 	color: #333;
 	font-family: 'Proxima Nova', sans-serif;
 	font-size: 18px;
-}
 
-img {
-// Responsive IMGs
-  max-width: 95%;
-  width: auto\9; /*iefix*/
-  height: auto;
-  vertical-align: middle;
-  border: 0;
-  -ms-interpolation-mode: bicubic;
 }
-
 a {
 	color: #444;
 	  -webkit-transition: color 0.15s ease-in-out, opacity 0.1s ease-in-out, background-color 0.15s ease-in-out, padding 0.15s ease-in-out, -webkit-transform 0.15s ease-in-out;
@@ -79,9 +69,11 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Proxima Nova', sans-serif;}
 		font-size: 1.4rem;
 		float: right;
 		padding-top: 20px;
-		/*margin-bottom: -25px;*/
+		margin-bottom: -25px;
 	}
-
+	#masterhead nav{
+		margin-top: -25px;
+	}
 }
 
 @media screen and (max-width: 700px) {
@@ -89,10 +81,7 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Proxima Nova', sans-serif;}
 		width: 95%;
 	}
 	#header {
-		font-size: 1.2rem;
-		float: right;
-		padding-top: 20px;
-		/*margin-bottom: -25px;*/
+		font-size: 4rem;
 	}
 }
 
@@ -191,6 +180,7 @@ nav {
 .post a {
 	color: #5EC984;
 	text-decoration: none;
+	margin-left: 5px;
 }
 .post a:hover {
 	text-decoration: underline;
