@@ -1,0 +1,6 @@
+
+http://blog.robs.im/archive.html
+http://blog.robs.im/feed.xml
+http://blog.robs.im/index.html
+http://blog.robs.im/sitemap.txt
+http://blog.robs.im/tweet.xml

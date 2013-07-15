@@ -1,16 +1,24 @@
 ---
 layout: layout
-title: m8ck - yet another weblog
-description: Personal weblog about technology, productivity, web development, and everything in between
+title: Rob Sim | Blog
+description: The Blog of Rob Sim, a Designer and Developer
 ---
 
-{% for post in site.posts %}
+<div class="content">
+	{% for post in site.posts %}
+	<ul class="posts">
+       <a href="{{ post.url }}">{{ post.title }}</a>
+	</ul>
+	{% endfor %}
+</div>
+
+<!-- {% for post in site.posts %}
 	<article class="post">
 
 		<header>
 			
 				{% if post.link %}
-				<h3><a href="{{ post.link }}" class="link-post">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a> → </h3>
+				<h3><a href="{{ post.link }}" class="link-post">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a> </h3>
 			  {% else %}
 				<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 				{% endif %}
@@ -22,4 +30,4 @@ description: Personal weblog about technology, productivity, web development, an
       	{{ post.content }}
 
 	</article>
-{% endfor %}
+{% endfor %} -->
